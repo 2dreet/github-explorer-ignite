@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // fala que vai vamos utilizar essas libs
+    "lib": ["dom", "dom.iterable", "esnext"],                                        
+    // fala que o padrao é o jxs do react
+    "jsx": "react-jsx",                                
+    "moduleResolution": "node",                       
+    "resolveJsonModule": true,               
+    // fala que pode ter arquivos ts e js         
+    "allowJs": true,                     
+    "noEmit": true,                                   
+    "isolatedModules": true,                          
+    "allowSyntheticDefaultImports": true,             
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                      
+    "skipLibCheck": true                                 
+  },
+  // aonde o codigo do app vai estar
+  "include": ["src"]
+}
